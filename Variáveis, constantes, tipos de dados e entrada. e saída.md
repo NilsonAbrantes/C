@@ -1,4 +1,4 @@
-# C
+## C
 //-->usado para fazer comentarios
 main-->Nome da fumção da qual o programa deve ser inicializado
 *Após cada comando deve ser colocado um ponto em vírgula(;)

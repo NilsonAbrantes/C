@@ -7,6 +7,7 @@
 -->Nome da fumção da qual o programa deve ser inicializado
 
 ```
+
 *Após cada comando deve ser colocado um ponto em vírgula(;)
 Um programa em C deve ser Identado para que possa ser lido com mais facilidade.-->semelhante ao python
 

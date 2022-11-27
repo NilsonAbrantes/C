@@ -34,9 +34,12 @@ Deve ter no máximo 31 caracteres (no caso do TurboC);
 Pode conter números a partir do segundo caracter;
 Exemplos:
 
-## Biblioteca de português
-include <locale.h>
-setlocale(LC_ALL,"Portuguese");
 Idade, Contador, PesoDoCarro,
 Usuario_1, CorDaPagina, RaioDoCirculo
+
+## Biblioteca de português
+include <locale.h>
+
+setlocale(LC_ALL,"Portuguese");
+
 

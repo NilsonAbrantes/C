@@ -4,7 +4,7 @@
 -->usado para fazer comentarios
 
 ## main
--->Nome da fumção da qual o programa deve ser inicializado
+-->Nome da função da qual o programa deve ser inicializado
 
 ```
 

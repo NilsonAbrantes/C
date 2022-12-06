@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+float maiorsalario(float[],int);
+int main(){
+    setlocale(LC_ALL,"Portuguese");
+
+//Var
+float func1[]={800,1200,1800,1700,1900};
+float func2[]={1800,1350,1600,1950,2100};
+float func3[]={2200,2300,2500,2700,2000};
+float salarios[3];
+
+salarios[0]=maiorsalario(func1,5);
+salarios[1]=maiorsalario(func2,5);
+salarios[2]=maiorsalario(func3,5);
+
+printf("O maior salário entre todos os funcionários é:%.2f",maiorsalario(salarios,3));
+
+return 0;
+//Atribuição de valores
+}float maiorsalario(float salarios[],int t){
+    float maior=salarios[0];
+    for(int i=1;i<t;i++){
+        if(salarios[i]>maior){
+            maior=salarios[i];
+        }
+    }
+
+return maior;
+}

@@ -23,10 +23,10 @@ void main()-->inicialização
 {-->começo do código 
 
    int a;           
-   // declara a variável "a"
+// declara a variável "a"
    
    a = 3 + 2;     
-   ]// soma 3 com 2
+// soma 3 com 2
    
 }-->fim do código
 

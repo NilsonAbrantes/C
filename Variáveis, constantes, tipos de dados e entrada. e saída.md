@@ -22,11 +22,11 @@ Um programa em C deve ser Identado para que possa ser lido com mais facilidade.-
 void main()-->inicialização
 {-->começo do código 
 
-   int a;           
-// declara a variável "a"
+   int a;           // declara a variável "a"
    
-   a = 3 + 2;     
-// soma 3 com 2
+   a = 3 + 2;     // soma 3 com 2
+   
+   printf("%d",a)   // imprime o valor de a(5)
    
 }-->fim do código
 
@@ -52,6 +52,8 @@ Exemplos:
 
 Idade, Contador, PesoDoCarro,
 Usuario_1, CorDaPagina, RaioDoCirculo
+
+```
 
 ## Biblioteca de português
 include <locale.h>

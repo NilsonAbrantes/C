@@ -27,4 +27,19 @@ Função para fechar e salvar as alteraçôes.
 fclose(file);
 ```
 
+## fgets
+Função para ler frases de um arquivo até encontrar uma quebra de linha, sendo então alinhado ao while para ser possível ao leitura completa do arquivo.
+
+sintaxe
+```
+fgets(frase//nome do vetor de caractere, 100//tamanho do vetor, file//nome do ponteiro);
+printf("%s", frase);
+```
+estrutura com o while
+```
+while(fgets(frase, 100, file) != NULL){
+  printf("%s", frase);
+}
+```
+
 

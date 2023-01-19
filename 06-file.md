@@ -12,8 +12,8 @@ FILE *file;   -->ponteiro
 file = fopen("C:\\Users\Nilson Abrantes\\Desktop\\teste.txt", "w");  // a função irá abrir um arquivo chamado teste do tipo txt e escrever algo com a função ("w").
 obs:1.Se não existir esse arquivo, se possivel o programa irá cria-la.
 2.Se já houver algo escrito o programa irá sobreescrever.
-
 ```
+### tipos de manipulação com fopen
 
 ## fprintf
 Função para escrever em determinado arquivo.
